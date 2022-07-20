@@ -9,7 +9,7 @@ from bot import SUDO_USERS, DOWNLOAD_DIRECTORY, LOGGER, SUPPORT_CHAT_LINK
 from bot.config import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from bot import GdriveBot as Client 
+from bot.Gbot import GdriveBot as Client  
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['log']) & filters.user(SUDO_USERS))
 def _send_log(client, message):
