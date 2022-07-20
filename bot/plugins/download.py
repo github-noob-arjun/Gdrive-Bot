@@ -8,7 +8,7 @@ from bot.helpers.gdrive_utils import GoogleDrive
 from bot import DOWNLOAD_DIRECTORY, LOGGER
 from bot.config import Messages, BotCommands
 from pyrogram.errors import FloodWait, RPCError
-from bot.Gbot import GdriveBot as Client 
+from bot import GdriveBot as Client 
 
 @Client.on_message(filters.incoming & filters.text & filters.command(BotCommands.Download) | filters.regex('^(ht|f)tp*'))
 def _download(client, message):
