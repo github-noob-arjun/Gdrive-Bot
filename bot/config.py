@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
+    BOT_TOKEN = "5318793234:AAHtik1DzBw7qpL_YZcWI_i3M9E1Noxm9w0"
+    APP_ID = "6015447"
+    API_HASH = "0e96dd0dd4c4c9ded27c2ef58e6ab112"
+    DATABASE_URL = "postgres://pcjbwwbimyevrs:17498bbe5d821df3c82bd35d540d78e515af4fb2bcea16b10a61d55f35df9a71@ec2-18-214-35-70.compute-1.amazonaws.com:5432/dc3736bno64l50"
     SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    SUPPORT_CHAT_LINK = "https://t.me/PYRO_BOTZ_CHAT"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
