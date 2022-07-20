@@ -2,10 +2,6 @@ import os
 import logging
 from pyrogram import Client
 
-BOT_TOKEN = ""
-APP_ID = "
-API_HASH = ""
-
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
