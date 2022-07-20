@@ -22,7 +22,7 @@ if __name__ == "__main__":
     plugins = dict(
         root="bot/plugins"
     )
-    app = Client(
+    GdriveBot = Client(
         "G-DriveBot",
         bot_token=BOT_TOKEN,
         api_id=APP_ID,
@@ -31,6 +31,6 @@ if __name__ == "__main__":
         parse_mode="markdown",
         workdir=DOWNLOAD_DIRECTORY
     )
-    LOGGER.info('Starting Bot !')
-    app.run()
-    LOGGER.info('Bot Stopped !')
+    #LOGGER.info('Starting Bot !')
+    #app.run()
+    #LOGGER.info('Bot Stopped !')
