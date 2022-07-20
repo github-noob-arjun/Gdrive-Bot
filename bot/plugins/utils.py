@@ -3,13 +3,13 @@ import shutil
 from os import execl
 from time import sleep
 from sys import executable
-from pyrogram import Client, filters
+from pyrogram import filters
 from pyrogram.errors import FloodWait, RPCError
 from bot import SUDO_USERS, DOWNLOAD_DIRECTORY, LOGGER, SUPPORT_CHAT_LINK
 from bot.config import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
+from bot import GdriveBot as Client 
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['log']) & filters.user(SUDO_USERS))
 def _send_log(client, message):
