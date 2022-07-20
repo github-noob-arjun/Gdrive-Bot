@@ -26,10 +26,10 @@ if __name__ == "__main__":
         "G-DriveBot",
         bot_token=BOT_TOKEN,
         api_id=APP_ID,
-        api_hash=API_HASH,
-        plugins=plugins,
-        parse_mode="markdown",
-        workdir=DOWNLOAD_DIRECTORY
+        api_hash=API_HASH
+        # plugins=plugins,
+        # parse_mode="markdown",
+        # workdir=DOWNLOAD_DIRECTORY
     )
     #LOGGER.info('Starting Bot !')
     #app.run()
