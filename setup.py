@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='bot',
-      version='0.2.6',
+      version='0.2.7',
       description='Python module for interacting with Chatbase APIs',
       url='https://github.com/github-noob-arjun/Gdrive-Bot',
       author='Github',
