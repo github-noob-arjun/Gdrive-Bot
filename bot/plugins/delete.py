@@ -1,9 +1,8 @@
-from pyrogram import filters
+from pyrogram import filters, Client
 from bot.config import BotCommands, Messages
 from bot.helpers.gdrive_utils import GoogleDrive
 from bot.helpers.utils import CustomFilters
-from bot import LOGGER
-from bot import GdriveBot as Client  
+from bot import LOGGER  
 
 @Client.on_message(filters.private & filters.incoming & filters.command(BotCommands.Delete) & CustomFilters.auth_users)
 def _delete(client, message):
