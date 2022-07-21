@@ -3,15 +3,14 @@ import json
 from httplib2 import Http
 from bot import LOGGER
 from bot.config import Messages
-from pyrogram import filters
+from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from oauth2client.client import OAuth2WebServerFlow, FlowExchangeError
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from bot.helpers.sql_helper import gDriveDB
 from bot.config import BotCommands
-from bot.helpers.utils import CustomFilters
-from bot import GdriveBot as Client 
+from bot.helpers.utils import CustomFilters 
 
 OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
