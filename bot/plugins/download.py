@@ -1,6 +1,6 @@
 import os
 from time import sleep
-from pyrogram import filters
+from pyrogram import filters, Client
 from bot.helpers.sql_helper import gDriveDB, idsDB
 from bot.helpers.utils import CustomFilters, humanbytes
 from bot.helpers.downloader import download_file, utube_dl
@@ -8,7 +8,7 @@ from bot.helpers.gdrive_utils import GoogleDrive
 from bot import DOWNLOAD_DIRECTORY, LOGGER
 from bot.config import Messages, BotCommands
 from pyrogram.errors import FloodWait, RPCError
-from bot import GdriveBot as Client 
+ 
 
 @Client.on_message(filters.incoming & filters.text & filters.command(BotCommands.Download) | filters.regex('^(ht|f)tp*'))
 def _download(client, message):
