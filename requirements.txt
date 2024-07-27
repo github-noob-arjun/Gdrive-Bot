@@ -1,5 +1,5 @@
 wget
-asyncio==3.4.1
+asyncio==0.4.1
 pyrogram==1.0.1
 tgcrypto
 oauth2client
