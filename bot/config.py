@@ -1,7 +1,7 @@
 class config:
     BOT_TOKEN = "7304104283:AAE4Npn6FkYb9m3CfqPzUs3O2P1pYIqJnAU"
-    APP_ID = 6015447
-    API_HASH = "0e96dd0dd4c4c9ded27c2ef58e6ab112"
+    APP_ID = 25336284
+    API_HASH = "021342e95a4a5edc21db0fe53a632809"
     DATABASE_URL = "postgres://koyeb-adm:x4rZ3VzyYcem@ep-holy-hat-a24a8qvn.eu-central-1.pg.koyeb.app/koyebdb"
     SUDO_USERS = 1266733572 # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/PYRO_BOTZ_CHAT"
