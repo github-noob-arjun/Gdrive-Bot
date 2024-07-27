@@ -1,5 +1,5 @@
 class config:
-    BOT_TOKEN = "5318793234:AAHtik1DzBw7qpL_YZcWI_i3M9E1Noxm9w0"
+    BOT_TOKEN = "7304104283:AAE4Npn6FkYb9m3CfqPzUs3O2P1pYIqJnAU"
     APP_ID = 6015447
     API_HASH = "0e96dd0dd4c4c9ded27c2ef58e6ab112"
     DATABASE_URL = "postgres://koyeb-adm:x4rZ3VzyYcem@ep-holy-hat-a24a8qvn.eu-central-1.pg.koyeb.app/koyebdb"
