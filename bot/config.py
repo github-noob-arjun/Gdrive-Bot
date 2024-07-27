@@ -3,7 +3,7 @@ class config:
     APP_ID = 25336284
     API_HASH = "021342e95a4a5edc21db0fe53a632809"
     DATABASE_URL = "postgres://koyeb-adm:x4rZ3VzyYcem@ep-holy-hat-a24a8qvn.eu-central-1.pg.koyeb.app/koyebdb"
-    SUDO_USERS = 1266733572 # Sepearted by space.
+    SUDO_USERS = 5646278911 # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/PYRO_BOTZ_CHAT"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
